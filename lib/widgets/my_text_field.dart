@@ -4,8 +4,8 @@ class MyTextField extends StatelessWidget {
   final String label;
   final int maxLines;
   final int minLines;
-  final Icon icon;
-  MyTextField({this.label, this.maxLines = 1, this.minLines = 1, this.icon});
+  final Icon? icon;
+  MyTextField({required this.label, this.maxLines = 1, this.minLines = 1, this.icon});
 
   @override
   Widget build(BuildContext context) {

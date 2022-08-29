@@ -6,8 +6,8 @@ class TaskContainer extends StatelessWidget {
   final String subtitle;
   final Color boxColor;
   
-  TaskContainer({
-    this.title, this.subtitle, this.boxColor,
+  TaskContainer({required
+    this.title,required this.subtitle,required this.boxColor,
   });
 
   @override

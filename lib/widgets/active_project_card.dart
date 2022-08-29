@@ -8,10 +8,10 @@ class ActiveProjectsCard extends StatelessWidget {
   final String subtitle;
 
   ActiveProjectsCard({
-    this.cardColor,
-    this.loadingPercent,
-    this.title,
-    this.subtitle,
+    required this.cardColor,
+    required this.loadingPercent,
+    required this.title,
+    required this.subtitle,
   });
 
   @override
